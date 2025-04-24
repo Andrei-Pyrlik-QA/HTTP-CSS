@@ -1,0 +1,39 @@
+/* Задний фон для всей страницы */
+body {
+    background-image: url('mount.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}h1 {
+    margin-top: 10px;
+    text-align: center;
+    color: White;
+}
+h2 {
+    color: Navy; /* цвет для всех h2 */
+    font-size: 16px;
+    font-family: Times Nev Roman;
+}
+
+li {
+    color: White; /* цвета для всех li */
+    font-size: 18px;
+}  
+
+p {
+    font-size: 18px;
+    color: White;
+}
+
+body {
+    position: relative; /* Родительский элемент для абсолютного позиционирования */
+}
+
+a {
+    position: absolute; /* Позиционируется абсолютно */
+    top: 50%; /* Центр по вертикали */
+    right: 100px; /* Справа от окна */
+    transform: translateY(-50%); /* Центральное размещение по вертикали */
+    color: blue;
+    
+}
