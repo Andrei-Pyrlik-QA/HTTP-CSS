@@ -1,2 +1,2 @@
 Мой сайт визитка:
-http://194.48.141.245/index.html
+https://pyrlik-it.ru
